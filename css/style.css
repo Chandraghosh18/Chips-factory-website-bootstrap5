@@ -1,0 +1,142 @@
+.top_navbar{
+    background-color: rgb(255, 251, 0);
+}
+
+
+/* contact_details */
+.contact_details{
+  background-color: rgb(243, 227, 4);
+}
+
+/* contact_icon */
+.contact_icon{
+  padding: 0% 0% 1% 30%;
+}
+/* contact_icon_link */
+.contact_icon_link{
+  padding-left:2%;
+}
+  .carousel-inner {
+    width:100%;
+    height: auto;   
+  }
+/* change color on hover */
+  .nav-item>a:hover{
+    border-radius:8px;
+    background-color: crimson;
+    color: white !important;
+  }
+
+  .nav-items>a:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .dropdown-menu>li>a:hover{
+    background-color: crimson;
+    color: white !important;
+  }
+
+  /* carousel images */
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%
+    !important;
+}
+
+@media all and (min-width:992px) {
+  .navbar .nav-item .dropdown-menu{display: none;}
+  .navbar .nav-item:hover .dropdown-menu{display: block;} 
+}
+
+/* client_review */
+.client_review{
+  background-image:url("Images/gallery-img-03.png");
+   /* Full height */
+   height: 100%; 
+   
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+
+/* member social media logo */
+.member_f_social{
+  width:40px;height:36px
+}
+.member_i_social{
+  width:40px;height:36px;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.member-linkdin{
+  background-color: #0072b1;
+}
+.member_card{
+  border-radius:13px;
+}
+
+/* carousel button */
+.carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #2f2f2f;
+  border-radius:40px;
+}
+
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #2f2f2f;
+  border-radius:40px;
+}
+/* Buy from online */
+.buy{
+  background-color: #008c9e;
+  background: linear-gradient(45deg, #11c1d1 0%,#28afbb 75%,#008c9e 100%); 
+  border-radius:10px;
+}
+
+/* feedback */
+.feedback{
+  width:300px;
+  height:300px;
+  border-radius:500px;
+}
+/* carousel_indicator */
+#carousel_indicator{
+  background-color: #2f2f2f;
+}
+
+/* join_now_button */
+#join_now_button{
+  background: linear-gradient(45deg, #cc3737 0%,#bb0000 75%,#b10000 100%);  
+}
+
+/* carousel-indicators shape change */
+/* .carousel-indicators > #carousel_indicator{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+} */
+
+/* YoutubeCarouselIndicator */
+.carousel-indicators > #carousel_indicator{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+/* OurTeam_Indicator */
+.carousel-indicators > #OurTeam_Indicator{
+  width: 16px;
+  height: 16px;
+  border-radius: 25%;
+  background-color: black;
+}
